@@ -1,0 +1,91 @@
+burma14.tsp
+Exact:  3323
+Error:  0.0
+Execution time:  2.914246082305908
+Closest Insertion: 3588
+Error:  7.974721637074933
+Execution time:  0.000997304916381836
+Cost:  4048
+Error:  21.817634667469154
+Execution time:  0.0
+2-approximate with minimum spanning tree: 4003
+Error:  20.46343665362624
+Execution time:  0.0
+d493.tsp
+Exact:  112122
+Error:  220.33026684189477
+Execution time:  60.092214584350586
+Closest Insertion: 41461
+Error:  18.45323124392892
+Execution time:  1.9568028450012207
+Cost:  41660
+Error:  19.021770184560882
+Execution time:  0.19846582412719727
+2-approximate with minimum spanning tree: 45332
+Error:  29.51259928004114
+Execution time:  0.47669553756713867
+dsj1000.tsp
+Exact:  552800787
+Error:  2862.5403543724847
+Execution time:  60.17996001243591
+Closest Insertion: 22723503
+Error:  21.778579577536345
+Execution time:  4.862544059753418
+Cost:  24630960
+Error:  32.00092091571949
+Execution time:  0.8706912994384766
+2-approximate with minimum spanning tree: 25526005
+Error:  36.79759811632435
+Execution time:  2.079476833343506
+eil51.tsp
+Exact:  1110
+Error:  160.56338028169014
+Execution time:  60.04951763153076
+Closest Insertion: 494
+Error:  15.96244131455399
+Execution time:  0.011969804763793945
+Cost:  511
+Error:  19.953051643192488
+Execution time:  0.001965045928955078
+2-approximate with minimum spanning tree: 605
+Error:  42.01877934272301
+Execution time:  0.0050601959228515625
+gr229.tsp
+Exact:  176922
+Error:  31.440840403560127
+Execution time:  60.06881237030029
+Closest Insertion: 156823
+Error:  16.508670004903344
+Execution time:  0.5555970668792725
+Cost:  162430
+Error:  20.67428418597049
+Execution time:  0.040897369384765625
+2-approximate with minimum spanning tree: 179335
+Error:  33.23353293413174
+Execution time:  0.09972667694091797
+kroD100.tsp
+Exact:  150572
+Error:  607.109984033061
+Execution time:  60.05902576446533
+Closest Insertion: 25219
+Error:  18.432422278576123
+Execution time:  0.03989839553833008
+Cost:  26947
+Error:  26.547384239691933
+Execution time:  0.007059574127197266
+2-approximate with minimum spanning tree: 28599
+Error:  34.305438151592
+Execution time:  0.019534587860107422
+ulysses22.tsp
+Exact:  8649
+Error:  23.3281049479538
+Execution time:  60.05860614776611
+Closest Insertion: 7816
+Error:  11.450163981177813
+Execution time:  0.001994609832763672
+Cost:  10586
+Error:  50.94823898474262
+Execution time:  0.0
+2-approximate with minimum spanning tree: 8308
+Error:  18.46570654498788
+Execution time:  0.000997781753540039

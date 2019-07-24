@@ -1,0 +1,69 @@
+import csv
+import os
+import math
+
+
+# [
+#    1: {
+#         el: [123,123,1,23],
+#         centroid: [2312.424,23.243]
+#     }
+# ]
+
+
+# file read order
+# unifiedCancerData_1041.csv
+# unifiedCancerData_212.csv
+# unifiedCancerData_3108.csv
+# unifiedCancerData_562.csv
+
+def create_graph():
+    path = "dataset/"
+    graphs = []
+
+    files = [f for f in os.listdir(path) if f.endswith('.csv')]
+    for f in files:
+        graph = {}
+        with open(path+f) as csv_file:
+            csv_reader = csv.reader(csv_file, delimiter=',')
+            for row in csv_reader:
+                graph[row[0]] = {
+                    'coords': [row[1], row[2]],
+                    'population': row[3],
+                    'risk': row[4]
+                }
+        graphs.append(graph)
+    return graphs
+
+G = create_graph()
+
+
+def split(S, Pl, Pr):
+    n = len(S)
+    Sl = []
+    Sr = []
+
+    j, k = 0
+    for i in range(0, n-1):
+        print("range printed", i)
+        if S[i] in Pl:
+            Sl[j] = S[i]
+            j = j+1
+        else:
+            Sr[k] = S[i]
+            k = k+1
+
+
+def fastClosestPair(P, S):
+    n = len(P)
+    if n <= 3:
+        return slowestClosestPair()
+    else:
+        m = math.floor(n/2)
+        Pl = P[:m-1]
+        Pr = P[m:n-1]
+        print("Pl", Pl)
+        print("Pr", Pr)
+        Sl, Sr = split(S, Pl, Pr)
+
+        

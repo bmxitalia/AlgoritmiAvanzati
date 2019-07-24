@@ -1,0 +1,8 @@
+Peso albero di copertura minimo:
+Burma14: 2345
+d493: 29269
+dsj1000: 15905252
+eil51: 375
+gr229: 113977
+kroD100: 18596
+ulysses22: 4660
